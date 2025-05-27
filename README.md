@@ -40,3 +40,19 @@ If you'd like to host Langflow on Azure, follow these 5 steps:
 > :bulb: The `$(openssl rand -hex 4)` or a similar mechanism helps create a unique DNS name label.
 
 5. Azure will output the Fully Qualified Domain Name (FQDN) once deployed. You can then access your Langflow at `http://<your-dns-name-label>.<region>.azurecontainer.io:7860`.
+
+
+
+
+### Hosting on hetzner
+
+1. git clone {this repo}
+2. cd host-langflow
+3. cd bm
+4. docker-compose up 
+
+
+
+
+
+
