@@ -50,7 +50,8 @@ If you'd like to host Langflow on Azure, follow these 5 steps:
 2. cd host-langflow
 3. cd bm
 4. snap install docker
-5. docker-compose up 
+5. docker-compose up
+6. Port 7860 
 
 
 
