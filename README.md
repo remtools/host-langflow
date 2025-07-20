@@ -49,7 +49,8 @@ If you'd like to host Langflow on Azure, follow these 5 steps:
 1. git clone {this repo}
 2. cd host-langflow
 3. cd bm
-4. docker-compose up 
+4. snap install docker
+5. docker-compose up 
 
 
 
